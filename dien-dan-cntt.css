@@ -1,0 +1,109 @@
+.flex{
+    display: flex;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: cadetblue;
+    justify-content: space-between;
+}
+.menu{
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu>li>a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+ul.menu>li>a:hover{
+    background-color: blueviolet;
+}
+nav>ul.menu:first-child>li{
+    border-left: 1px solid white;
+}
+header{
+    justify-content: space-between;
+    background-image: linear-gradient(blue , darkblue);
+}
+header>h1{
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+
+footer{
+    background-color: #0a6fa3;
+    justify-content: space-between;
+}
+footer>ul>li{
+    list-style-type: none;
+}
+footer>ul{
+    border: white;
+    margin: 10px;
+    padding: 0;
+    color: white;
+}
+section>h2{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-top: 3px;
+    border-radius: 10px 10px 0 0;
+}
+.course{
+    width: 70%;
+    margin: 0 auto;
+}
+.forum{
+    background-color: deepskyblue;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+.user{
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.forum>ul{
+    list-style-type: none;
+    color: white;
+}
+.forum>p:last-child{
+    font-style: italic ;
+    text-align: right;
+    color: white;
+    margin-right: 10px;
+}
+.forums>.forum:last-child{
+    border-radius: 0 0 10px 10px;
+}
+
+/*CSS ADS*/
+.ads{
+    background-image: linear-gradient(lightblue, blue);
+    width: 14%;
+    padding: 150px 0;
+    text-align: center;
+    position: fixed;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.ads:first-child{
+    left: .5%;
+    
+}
+.ads:last-child{
+    right: .5%;
+    
+}
+

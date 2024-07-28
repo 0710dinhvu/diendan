@@ -1,0 +1,12 @@
+body{
+    background-color: cadetblue;
+}
+.flex.forum{
+    display: block;
+}
+.ads{
+    display: none;
+}
+.course{
+    width: 100%;
+}
